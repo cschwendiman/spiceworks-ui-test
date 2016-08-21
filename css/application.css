@@ -11,14 +11,6 @@ form button { margin-left:80px; display: inline-block; padding: 2px 10px 2px 10p
 
 /* Put your styles here */
 
-#main-content {
-    overflow: auto;
-}
-
-form button:disabled {
-    background-image: linear-gradient(to bottom, #999999, #777777);
-}
-
 #employee-list {
     padding: 0;
     margin: 0;
@@ -26,13 +18,11 @@ form button:disabled {
 }
 
 #employee-list li {
-    width: 225px;
-    height: 82px;
+    width: 222px;
+    height: 80px;
     overflow: hidden;
-    margin-top: 0;
     margin-bottom: 15px;
     border: 1px solid #d3d3d3;
-    box-sizing: border-box;
     font-size: 13px;
     color: #333333;
     font-weight: bold;
